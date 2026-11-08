@@ -1,1 +1,147 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMBER & OAK | Modern Dining</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">EMBER <span>&</span> OAK</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">Our Story</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="nav-button">Book a Table</a>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tagline">A MODERN DINING EXPERIENCE</p>
+
+            <h1>Where Fire<br>Meets <span>Flavour.</span></h1>
+
+            <p class="hero-description">
+                Discover exceptional food, handcrafted flavours
+                and unforgettable moments.
+            </p>
+
+            <a href="#menu" class="main-button">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <section class="about section" id="about">
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+                 alt="Restaurant interior">
+        </div>
+
+        <div class="about-content">
+            <p class="tagline">OUR STORY</p>
+            <h2>More Than Just <span>A Meal.</span></h2>
+
+            <p>
+                At Ember & Oak, we believe dining is an experience.
+                Every dish is thoughtfully prepared using fresh
+                ingredients, bold flavours and a passion for food.
+            </p>
+
+            <p>
+                From intimate dinners to special celebrations,
+                we create moments worth remembering.
+            </p>
+
+            <a href="#contact" class="text-button">Discover More →</a>
+        </div>
+    </section>
+
+    <section class="menu section" id="menu">
+        <div class="section-heading">
+            <p class="tagline">TASTE THE DIFFERENCE</p>
+            <h2>Our Signature <span>Menu</span></h2>
+            <p>A selection of our favourite creations.</p>
+        </div>
+
+        <div class="menu-grid">
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe"
+                     alt="Fresh salad">
+                <div class="menu-info">
+                    <h3>Garden Fresh Salad</h3>
+                    <p>Fresh greens, seasonal vegetables and house dressing.</p>
+                    <span>₹249</span>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1"
+                     alt="Grilled food">
+                <div class="menu-info">
+                    <h3>Smoky Grill Platter</h3>
+                    <p>Our signature grilled selection with special spices.</p>
+                    <span>₹449</span>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38"
+                     alt="Pizza">
+                <div class="menu-info">
+                    <h3>Classic Italian Pizza</h3>
+                    <p>Handcrafted pizza with rich sauce and fresh toppings.</p>
+                    <span>₹349</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="banner">
+        <div>
+            <p class="tagline">GOOD FOOD. GREAT MOMENTS.</p>
+            <h2>Make Every Meal<br><span>Memorable.</span></h2>
+            <a href="#contact" class="main-button">Reserve Your Table</a>
+        </div>
+    </section>
+
+    <section class="contact section" id="contact">
+        <div class="section-heading">
+            <p class="tagline">WE WOULD LOVE TO SEE YOU</p>
+            <h2>Get In <span>Touch</span></h2>
+        </div>
+
+        <div class="contact-details">
+            <p><strong>Address:</strong> Your Restaurant Address</p>
+            <p><strong>Phone:</strong> +91 98765 43210</p>
+            <p><strong>Email:</strong> hello@example.com</p>
+        </div>
+
+        <form class="booking-form" id="bookingForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="date" id="bookingDate" required>
+            <button type="submit" class="main-button">Request a Booking</button>
+        </form>
+
+        <p id="formMessage"></p>
+    </section>
+
+    <footer>
+        <a href="#home" class="logo">EMBER <span>&</span> OAK</a>
+        <p>© <span id="year"></span> Ember & Oak. All rights reserved.</p>
+        <p>Crafted with passion.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
